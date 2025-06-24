@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Afifa Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <main>
+    <!-- sidebar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets\images\logo.ico" alt="Afifa Aqeel" width="80" />
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Afifa Aqeel</h1>
+          <p class="title">Web Developer & UI/UX Designer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:afifaaptech64@gmail.com" class="contact-link">afifaaptech64@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+923166442349" class="contact-link">0316 6442349</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-02-14">14 February 2004</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Block D, C-101, North Nazimabad, Karachi</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/afifaaqeel64" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://linkedin.com/in/afifaaqeel" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- main content -->
+    <div class="main-content">
+      <!-- navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT PAGE -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>Hello! I'm <strong>Afifa Aqeel</strong>, a dedicated Web Developer & UI/UX Designer from Karachi, Pakistan.
+          </p>
+          <p>I specialize in front-end development using HTML, CSS, Bootstrap, and JavaScript, along with PHP and MySQL
+            for backend. I also design intuitive interfaces using Figma and Adobe XD.</p>
+          <p>Driven by learning and creativity, I craft polished digital experiences with an eye for detail and
+            functionality.</p>
+        </section>
+
+        <!-- services -->
+        <section class="service">
+          <h3 class="h3 service-title">What I Do</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="Web Design" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">Web Design</h4>
+                <p>Modern, user-friendly website layouts built with design principles in mind.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web Development" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">Web Development</h4>
+                <p>Dynamic web applications built with clean code using PHP, MySQL, and JS.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="Responsive Design"
+                  width="40" /></div>
+              <div class="service-content-box">
+                <h4 class="h4">Responsive Design</h4>
+                <p>Crafted to look great and work smoothly on all devices.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="UI/UX Design" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4">UI/UX Design</h4>
+                <p>Wireframes and mockups created with Figma and Adobe XD focused on the user experience.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- testimonials -->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item" data-testimonials-item>
+              <div class="content-card">
+                <figure class="testimonials-avatar"><img data-testimonials-avatar src="./assets/images/avatar-1.png"
+                    alt="Ahmed Raza" width="60" /></figure>
+                <h4 data-testimonials-title>Ahmed Raza</h4>
+                <p data-testimonials-text>"Afifa is extremely talented and detail‑oriented. She built a beautiful
+                  website that exceeded our expectations."</p>
+              </div>
+            </li>
+            <li class="testimonials-item" data-testimonials-item>
+              <div class="content-card">
+                <figure class="testimonials-avatar"><img data-testimonials-avatar src="./assets/images/avatar-2.png"
+                    alt="Sana Tariq" width="60" /></figure>
+                <h4 data-testimonials-title>Sana Tariq</h4>
+                <p data-testimonials-text>"Professional, creative, and efficient. Her UI/UX design delivered a better
+                  experience for our clients."</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- tools -->
+        <section class="clients">
+          <h3 class="h3 clients-title">Languages & Tools</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item"><img src="./assets/images/logos/html.png" alt="HTML5 Logo" width="50" /></li>
+            <li class="clients-item"><img src="./assets/images/logos/css.png" alt="CSS3 Logo" width="50" /></li>
+            <li class="clients-item"><img src="./assets/images/logos/bootstrap.png" alt="Bootstrap Logo" width="50" />
+            </li>
+            <li class="clients-item"><img src="./assets/images/logos/js.png" alt="JavaScript Logo" width="50" /></li>
+            <li class="clients-item"><img src="./assets/images/logos/php.png" alt="PHP Logo" width="50" /></li>
+            <li class="clients-item"><img src="./assets/images/logos/mysql.png" alt="MySQL Logo" width="50" /></li>
+            <li class="clients-item"><img src="./assets/images/logos/figma.png" alt="Figma Logo" width="50" /></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME PAGE -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <a href="assets/files/resume.pdf" download class="resume-btn">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          Download Resume (PDF)
+        </a>
+
+
+
+
+        <!-- education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4>Aptech North Nazimabad</h4><span>2022 — Present</span>
+              <p>Diploma in Web Development: front‑end, back‑end & UI/UX practicum.</p>
+            </li>
+            <li class="timeline-item">
+              <h4>Intermediate – Pre‑medical</h4><span>2020 — 2022</span>
+              <p>Science & Math foundation for technology.</p>
+            </li>
+            <li class="timeline-item">
+              <h4>Matriculation – Science</h4><span>2019 — 2020</span>
+              <p>High school with strong interest in science & problem solving.</p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4>Freelance Web Developer & UI/UX Designer</h4>
+              <p>Built responsive sites using HTML, CSS, JS, PHP, MySQL and designed Figma/Adobe XD wireframes.</p>
+            </li>
+
+          </ol>
+        </section>
+
+        <!-- skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5>HTML, CSS, Bootstrap</h5><data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:95%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5>JavaScript & jQuery</h5><data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:85%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5>PHP & MySQL</h5><data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:80%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5>UI/UX Design (Figma)</h5><data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5>WordPress</h5><data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width:60%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO PAGE -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>static</button></li>
+            <li class="filter-item"><button data-filter-btn>dynamic</button></li>
+            <li class="filter-item"><button data-filter-btn>work</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web design</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <!-- Example project; duplicate for others -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://6859cfecdeae922216c4cae1--afifacarstatic-website.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/project-1.png" alt="Finance" loading="lazy" />
+                </figure>
+                <h3 class="project-title">car-buying-system</h3>
+                <p class="project-category">static website</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://verdant-snickerdoodle-4c39eb.netlify.app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img
+                    src="./assets/images/project-2.png" alt="Finance" loading="lazy" />
+                </figure>
+                <h3 class="project-title"> navigation navbar</h3>
+                <p class="project-category">magic and animated navbar</p>
+              </a>
+            </li>
+            <!-- Add rest similarly -->
+          </ul>
+        </section>
+      </article>
+
+      <!-- BLOG PAGE (placeholder) -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+        <p style="padding:1rem;">Blog section coming soon...</p>
+      </article>
+
+      <!-- CONTACT PAGE -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox">
+          <figure><iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.8138716461517!2d67.0445043!3d24.938409900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f233a2db95b%3A0x25bb6440f828aac6!2sSaima%20Pari%20mall!5e0!3m2!1sen!2s!4v1709316548552!5m2!1sen!2s"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form class="form" data-form>
+            <div class="input-wrapper">
+              <input required data-form-input name="fullname" type="text" placeholder="Full name" class="form-input" />
+              <input required data-form-input name="email" type="email" placeholder="Email address"
+                class="form-input" />
+            </div>
+            <textarea required data-form-input name="message" class="form-input" placeholder="Your Message"></textarea>
+            <button disabled data-form-btn type="submit" class="form-btn"><ion-icon
+                name="paper-plane"></ion-icon><span>Send Message</span></button>
+          </form>
+        </section>
+      </article>
+    </div>
+
+  </main>
+
+  <!-- Testimonial Modal -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+      <figure class="modal-avatar-box"><img data-modal-img src="" alt="" width="80" /></figure>
+      <h3 data-modal-title class="h3"></h3>
+      <div data-modal-text class="modal-content"></div>
+    </section>
+  </div>
+
+  <!-- scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
